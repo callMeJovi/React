@@ -114,8 +114,31 @@ to pull out all the elements/properties of the old array/ object and add them to
 const newArray=[...oldArray,1,2]
 const newObject={...oldObject, newProp:5}
 
+const numbers=[1,2,3];
+const newNumbers=[...numbers,4,5];
+console.log(newNumbers);
+
+const person={
+  name:'max'
+};
+
+const newPerson= {
+  ...person,
+  age:28,
+  gender: 'female'
+}
+console.log(newPerson);
+
+
 - Rest: Used to merge a list of function arguments into an array 
 we use it in a function argument list
 function sorArgs(...args){
 	return args.sort()
 }
+
+ex:
+const filter=(...args)=>{ //...used as rest operator that merge arguments into an array
+  return args.filter(el=>el===1); // now args is an array, we could use array filter method 
+}
+
+console.log(filter(1,1,3))
