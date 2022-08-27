@@ -79,3 +79,43 @@ const person= new Person();
 person.printMyName();
 person.printGender();
 ------------------------------------------------------------------------------------
+ES7 without constructor and super()
+class Human{
+ 
+    gender='male';
+
+  printGender=()=>{
+    console.log(this.gender);
+  }
+}
+
+class Person extends Human {
+
+    name='Max';
+    gender='female';
+    //this.gender='female'; we can add/motify properties and methodes
+    //console.log(this);
+  }
+ printMyName=()=>{
+   console.log(this.name);
+ }
+ 
+}
+
+const person= new Person();
+person.printMyName();
+person.printGender();
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Spread & Rest Operators:
+- Spread : used to split up array elements OR object properties
+to pull out all the elements/properties of the old array/ object and add them to the new array/object
+const newArray=[...oldArray,1,2]
+const newObject={...oldObject, newProp:5}
+
+- Rest: Used to merge a list of function arguments into an array 
+we use it in a function argument list
+function sorArgs(...args){
+	return args.sort()
+}
