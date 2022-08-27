@@ -1,0 +1,80 @@
+React is 
+- a lean and focused component-based UI library. 
+- focuses on component but it doesn't have all the features, 
+- third-party libraries needed for additional functionality to ur app
+
+Angular is:
+- Complete component-based UI framework, packed with features. 
+- Uses TypeScript
+- Can be overkill for smaller projects
+
+--------------------------------------------------------------------------------------
+let & const
+
+let : to declare variable values that are variables
+const: to declare constant values that are set once and never changed
+
+
+Arrow functions:
+Normal function: function myFnc(){... }
+const myFnc=()=>{...}
+
+
+Exports & imports:
+- default export : when there's only one object in the file
+import person from './person.js' or
+import prs from './person.js'
+where the name of import is up to developers
+
+- named export: when there's +2 objects in the files to be exported
+import {smth} from './utility.js'
+import {smth as Smth} from './utility.js'
+import * as bundled from './utility.js' 
+
+where u have to use the exact name defined in the file with the export keyword, or if you have multiple named exports in a file, u can import everything with this*
+special character and then assign an alias and bundled
+
+
+Classes:
+- Classe is a blueprint for objects 
+- property (variable)
+- methods (funtions)
+- convenient way of creating constructor functions
+- support inheritance (you have another class which you inherit from taking all its properties and methods and potentially adding new methods and properties)
+
+class Person{
+	constructor () {
+    }                           'a property is added by creating a constructor that is a default function method you can add to any class
+}
+
+=> if you're extending another class and you're implementing the constructor which you don't have to, then you have to add super() method in the constructor
+this keyword simply excutes the parent constructor and initialize it.
+
+----------------------------------------------------------------------------------------------------------
+class Human{
+  constructor(){
+    this.gender='male';
+  }
+  printGender(){
+    console.log(this.gender)
+  }
+}
+
+class Person extends Human {
+
+  constructor (){
+    super();
+    this.name='Max';
+    //this.gender='female'; we can add/motify properties and methodes
+    //console.log(this);
+  }
+ printMyName(){
+   console.log(this.name)
+ }
+ 
+}
+
+const person= new Person();
+person.printMyName();
+person.printGender();
+------------------------------------------------------------------------------------
