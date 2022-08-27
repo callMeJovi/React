@@ -138,7 +138,7 @@ function sorArgs(...args){
 
 ex:
 const filter=(...args)=>{ //...used as rest operator that merge arguments into an array
-  return args.filter(el=>el===1); // now args is an array, we could use array filter method 
+  return args.filter(el=>el===1); // now args is an array, we could use array filter method, in the filter method we can implement an arrow function to specify the criteria
 }
 
 console.log(filter(1,1,3))
