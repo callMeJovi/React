@@ -37,6 +37,7 @@ special character and then assign an alias and bundled
 
 Classes:
 - Classe is a blueprint for objects 
+- comparable to constructor functions where inheritance is comparable to prototypes
 - property (variable)
 - methods (funtions)
 - convenient way of creating constructor functions
