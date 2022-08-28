@@ -161,5 +161,5 @@ Destructuring vs spread :
 	[,num2 ,num3]=numbers; // pull 1, 2 out of the numbers array
 	console.log(num2,num3); 
 	
-   - Object Destructuring
+   - Object Destructuring 
  
