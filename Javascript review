@@ -146,4 +146,20 @@ console.log(filter(1,1,3))
 
 -------------------------------------------------------------------------
 Destructuring
-- ea
+- easily extract array elements or object properties and store them in variables
+
+Destructuring vs spread :
+- spread takes out all elements all properties and distributes them in a new array or object or wherever u're using it
+- destructuring allows to pull out single element or properties and store them in variables for arrays and objects
+   - Array destructuring
+   ex: 
+   const numbers=[1,2,3];
+	[num1, num2]=numbers; // pull 1, 2 out of the numbers array
+	console.log(num1,num2);
+	
+   const numbers=[1,2,3];
+	[,num2 ,num3]=numbers; // pull 1, 2 out of the numbers array
+	console.log(num2,num3); 
+	
+   - Object Destructuring
+ 
