@@ -162,4 +162,11 @@ Destructuring vs spread :
 	console.log(num2,num3); 
 	
    - Object Destructuring 
+   //https://dmitripavlutin.com/javascript-object-destructuring/
+   //https://www.educative.io/answers/what-is-object-destructuring-in-javascript
+   //https://javascript.info/destructuring-assignment
+   ex:
+   ({ nom} = { nom: 'jojo', age: 28 });
+	console.log(nom);
+	console.log(age);
  
