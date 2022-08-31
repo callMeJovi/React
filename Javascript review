@@ -170,3 +170,36 @@ Destructuring vs spread :
 	console.log(nom);
 	console.log(age);
  
+
+-------------------------------------------------------------------------
+Reference and primitive Types refresher
+- numbers, strings, booleans, these are so-called primitive types. Whenever you reassign or you store a variable in another variable, it will copy the value
+ex: 
+const number = 1; //primitive type
+const num2=number; // copy of number
+
+console.log(num2);
+
+- Objects and arrays are reference types
+ex of copying the pointer:
+const person={ //In the const Person store a pointer to the place where the object is stored in memory
+  name: 'jojo'
+};
+const secondPerson=person; //reassignment => pointer is being copied
+person.name='Manu';
+
+console.log(secondPerson);
+
+ex of copying the object: 
+const person={ //In the const Person store a pointer to the place where the object is stored in memory
+  name: 'jojo'
+};
+const secondPerson={ //create a new object
+  ...person      //copy the object not the pointer
+}
+person.name='Manu';
+
+console.log(secondPerson);
+
+!!! Array and objects are reference type. If you reassign them you're copying the pointer not the value
+-----------------------------------------------------------------------
