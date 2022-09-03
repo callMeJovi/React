@@ -204,3 +204,6 @@ console.log(secondPerson);
 !!! Array and objects are reference type. If you reassign them you're copying the pointer not the value. Therefore if you want to do this in a real copy way, you will 
 have to create a new onject.
 -----------------------------------------------------------------------
+
+Refreshing array functions
+const
