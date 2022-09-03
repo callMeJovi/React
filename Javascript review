@@ -205,6 +205,6 @@ console.log(secondPerson);
 have to create a new onject.
 -----------------------------------------------------------------------
 
-React introduction :
-
-
+React :
+- javascript library fir building user interfaces
+- makes building complex interactive and reactive user interfaces simpler
