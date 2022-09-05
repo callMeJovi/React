@@ -206,6 +206,10 @@ have to create a new onject.
 -----------------------------------------------------------------------
 
 React :
-- javascript library fir building user interfaces
+- javascript library for building user interfaces
 - makes building complex interactive and reactive user interfaces simpler
-99
+- all about components
+All user interfaces are made up of components
+
+
+
