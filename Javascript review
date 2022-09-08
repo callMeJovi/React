@@ -216,5 +216,7 @@ What exactly components are:
 
 Why components:
 - reusability : having reusable building blocks helps us avoid repetition
-- separation of concerns
+- separation of concerns : keep our code base small and manageable
+=> Split big chuncks of code into multiple smaller functions => easy to manage and maintain
+
 
