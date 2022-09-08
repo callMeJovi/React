@@ -211,5 +211,10 @@ React :
 - all about components
 All user interfaces are made up of components
 
+What exactly components are:
+- reusable building blocks in your user interface
 
+Why components:
+- reusability : having reusable building blocks helps us avoid repetition
+- separation of concerns
 
