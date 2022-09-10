@@ -209,6 +209,7 @@ React :
 - javascript library for building user interfaces
 - makes building complex interactive and reactive user interfaces simpler
 - all about components
+- allows you to creat re-usable and reactive components consisting of HTML and javascript
 All user interfaces are made up of components
 
 What exactly components are:
