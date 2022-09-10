@@ -225,5 +225,5 @@ what is declaractive approach in React:
 - what we do as a developer is to define the desired target states and let react figure out what DOM instructions to be updated or removed. you don't write these concrete DOM on your own
 That's the difference when u use only javascript
 
-
+99
 
