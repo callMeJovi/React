@@ -225,8 +225,12 @@ what is declaractive approach in React:
 - what we do as a developer is to define the desired target states and let react figure out what DOM instructions to be updated or removed. you don't write these concrete DOM on your own
 That's the difference when u use only javascript
 
-"npx create-react-app my-app
-cd my-app
-npm start"
+Some methods:
+ReactDOM.render(what you want render on the scree,where on the screen)
+
+Remember that: 
+1. When working with React, you have to everytime activate the terminal with "npm start" after the trajectory of HTML/js files to start the development of the server
+2. Due to the fact that React funtions over server, you need to go back to HTML file then go for "live server" on VS code. It's the same whe u drag html to the server.
+
 
 
