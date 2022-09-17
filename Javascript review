@@ -232,5 +232,7 @@ Remember that:
 1. When working with React, you have to everytime activate the terminal with "npm start" after the trajectory of HTML/js files to start the development of the server
 2. Due to the fact that React funtions over server, you need to go back to HTML file then go for "live server" on VS code. It's the same whe u drag html to the server.
 
+Declarative:
+- What should be done
 
 
