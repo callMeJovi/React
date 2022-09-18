@@ -251,4 +251,5 @@ JSX:
 - write HTML inside JS
 
 Difference bewteen JSX and regular DOM element:
-
+- DOM element is a 
+- JSX is actually an object
