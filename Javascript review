@@ -252,4 +252,4 @@ JSX:
 
 Difference bewteen JSX and regular DOM element:
 - DOM element is a 
-- JSX is actually an object
+- JSX (or React creating with JSX) is kind of function that returns an JS object. These objects describe the DOM element that we want React to render on the screen
