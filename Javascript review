@@ -235,10 +235,16 @@ Remember that:
 Declarative:
 - What should be done
 "Just tell me what to do, and I'll worry about how I get it done
+ReactDOM.render(<h1 className="header">Hello, React!</h1>, document.getElementById("root"))
+
 
 Imperative:
 - How should it be done
 " Describt to me every step on how to do sth, and I'll do it
-
+using vanilla JS to append a header to "root": 
+const h1 = document.createElement("h1")
+h1.textContent = "This is an imperative way to program"
+h1.className = "header"
+document.getElementById("root").append(h1)
 
 
