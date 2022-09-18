@@ -249,6 +249,9 @@ document.getElementById("root").append(h1)
 
 JSX: 
 - write HTML inside JS
+- only returns a single parent element, which means we can't put 2 sibling elements side by side
+<h1 className="header">This is JSX</h1><p>This is a paragraph</p>
+- wrap them into one single parent element <div>
 
 Difference bewteen JSX and regular DOM element:
 - DOM element is a 
