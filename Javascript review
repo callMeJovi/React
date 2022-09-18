@@ -247,4 +247,8 @@ h1.textContent = "This is an imperative way to program"
 h1.className = "header"
 document.getElementById("root").append(h1)
 
+JSX: 
+- write HTML inside JS
+
+Difference bewteen JSX and regular DOM element:
 
