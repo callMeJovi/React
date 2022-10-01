@@ -46,3 +46,8 @@ function Reason() {
 
 }
 ReactDOM.render(<Reason />, document.getElementById("root"));
+
+What is a React component?
+Components are independent and reusable piece of code. They serve the same purpose as JS function, but work in isolation and return HTML. You can see a UI broken down
+into multiple individual pices called components, we can work on them individually and merge them all in a parent component which will be your final UI. 
+Component comes in two types, Class components and function components.
