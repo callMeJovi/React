@@ -51,3 +51,49 @@ What is a React component?
 Components are independent and reusable piece of code. They serve the same purpose as JS function, but work in isolation and return HTML. You can see a UI broken down
 into multiple individual pices called components, we can work on them individually and merge them all in a parent component which will be your final UI. 
 Component comes in two types, Class components and function components.
+
+What is Parent, child component?
+We have parent component which is Page(), we have child component that make up the page() component 
+
+function Header() {
+  return (
+    <header>
+      <nav><img src="./react-logo.png" width="40px"></img></nav>
+    </header>
+  )
+}
+
+function Footer() {
+  return (
+    <footer>
+      <small>@ 2022 jojo development. All rights reserved</small>
+    </footer>
+  )
+}
+
+function MainContent() {
+  return (
+    <div>
+      <h1>Reasons I'm excited to learn React</h1>
+      <ol>
+        <li>React allows developpers to maintain the code</li>
+        <li>React is so much fun</li>
+        <li>React is all about component</li>
+        <li>React is a highly hireable programming language</li>
+      </ol>
+    </div>
+  )
+}
+
+function Reason() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  )
+
+}
+// ReactDOM.render(<Reason />, document.getElementById("root"));
+ReactDOM.render(<Reason />, document.getElementById("root"));
