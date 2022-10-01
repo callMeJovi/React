@@ -23,3 +23,26 @@ to tell it HOW to do each step.
 We have small pieces that we can put together to make something
 larger/greater than the individual pieces, which means I can take small pieces of my user interface (UI) and put them into their own components, put them togerther to buikd 
 my page.
+
+function Reason() {
+  return (
+    <div>
+      <header>
+        <nav><img src="./react-logo.png" width="40px"></img></nav>
+      </header>
+      <h1>Reasons I'm excited to learn React</h1>
+      <ol>
+        <li>React allows developpers to maintain the code</li>
+        <li>React is fun</li>
+        <li>React is all about component</li>
+        <li>React is a highly hireable programming language</li>
+      </ol>
+      <footer>
+        <small>@ 2022 jojo development. All rights reserved</small>
+
+      </footer>
+    </div>
+  )
+
+}
+ReactDOM.render(<Reason />, document.getElementById("root"));
