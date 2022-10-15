@@ -46,4 +46,5 @@
 Airbnb website clone:
 Difficulties I've met are:
 1. loading images locally with React 
-<img src='./images/airbnb-logo.png' alt="nav-img" />
+<img src='./images/airbnb-logo.png' alt="nav-img" /> but why it worked with <img src='https://www.1min30.com/wp-content/uploads/2018/02/Couleur-logo-Airbnb.jpg' alt="nav-img" /> 
+When I've imported them from server
