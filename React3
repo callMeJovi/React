@@ -51,3 +51,29 @@ When I've imported them from server
 
 https://joshraiborde.medium.com/react-images-not-loading-1c103029526a
 https://www.reddit.com/r/reactjs/comments/ikkej4/react_doesnt_load_local_images/
+
+module.exports = {
+  "output": {
+    "filename": "[name].pack.js"
+  },
+  "module": {
+    "rules": [
+      {
+        "use": {
+          "loader": "babel-loader",
+          "options": {
+            "presets": [
+              "babel-preset-env",
+              "babel-preset-react"
+            ]
+          }
+        },
+        "exclude": /node_modules/,
+        "test": /\.js$/
+      }
+    ]
+  },
+  "entry": {
+    "index": "./index"
+  }
+};
