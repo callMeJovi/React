@@ -41,3 +41,9 @@
     -->
   </body>
 </html>
+
+
+Airbnb website clone:
+Difficulties I've met are:
+1. loading images locally with React 
+<img src='./images/airbnb-logo.png' alt="nav-img" />
