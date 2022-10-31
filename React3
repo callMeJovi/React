@@ -88,3 +88,9 @@ module.exports = {
 Quiz
 1.  What do props help us accomplish
 like parameters being passed into a function, props being passed into a component helps us make that component more reuseble
+
+2. How do you pass a prop into a component?
+<MyAwesomeHeader title="???" />
+it's like passing an attributes into HTML elements
+
+
