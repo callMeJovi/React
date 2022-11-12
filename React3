@@ -116,7 +116,8 @@ props is an object with is properties. If I want to access to its properties, we
 The expr part is never evaluated because the first operand (some falsy expression) is evaluated as falsy. If expr is a function, the function is never called.
 
 
-
+React renders arrays:
+JSX returns a regular javascript object
 
 
 
